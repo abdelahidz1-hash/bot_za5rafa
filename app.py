@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-# توكن الصفحة أو التطبيق الخاص بك
-PAGE_ACCESS_TOKEN = "GG|4217781495023853|DjfLXe9zSIcp5OXSOL7LkWleyZk"
+# توكن الصفحة الحقيقي الخاص بك
+PAGE_ACCESS_TOKEN = "EAA78DMfASO0BS6PPyyYOgiZC4aoebbWZBA6hXN3ZBYFoXZAjeIuuFTd81zWRVSqSzrS4AWRSjVy7nLTlMqstxZAg3d4nMrp1j16XZA1XemWljgZBNzUfUFJXY8MIUzjHPI0lElalKm9oVZBQQm7JDgbDJxCDnBa0fct7000ZAbBYZArZBsg1YgpbqKTYqtqFJt1dejCDNOy5ASpYQZDZD"
 
 
 # دالة زخرفة الأسماء التلقائية
@@ -62,4 +62,4 @@ def send_message(recipient_id, message_text):
 
 if __name__ == "__main__":
   app.run(host="0.0.0.0", port=5000, debug=True)
-  
+      
